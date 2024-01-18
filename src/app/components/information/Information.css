@@ -1,0 +1,12 @@
+.InformationContainer{
+    display: flex;
+}
+.avatarimage{
+    border-radius: 50%;
+    margin: 20px;
+}
+.userData{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}

@@ -1,7 +1,15 @@
 .BarContent{
+    margin-left: 1%;
     display: flex;
     flex-direction: row;
     gap:30px;
+}
+.BarContent h3{
+    margin: 0px;
+}
+.BarContent a{
+    text-decoration: none;
+    color: #000;
 }
 .UsernameCenter{
     width: 100%;
@@ -11,3 +19,8 @@
     align-items: center;
     border-bottom: 2px solid #000;
 }
+.BarContent h3::first-letter {
+    text-decoration: underline;
+    
+  }
+  

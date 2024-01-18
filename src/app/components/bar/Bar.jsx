@@ -1,14 +1,20 @@
 import React from 'react';
 import './Bar.css';
+import Link from 'next/link';
 
 export const Bar = () => {
 	return (
 		<>
 			<div className="BarContent">
-				<h3>Home</h3>
-				<h3>About me</h3>
-				<h3>Proyect</h3>
-				<h3>Proyect</h3>
+				<Link href="/">
+					<h3>Home</h3>
+				</Link>
+				<Link href="/about">
+					<h3>About me</h3>
+				</Link>
+				<Link href="/">
+					<h3>Proyects</h3>
+				</Link>
 			</div>
 			<div className="UsernameCenter">
 				<h1>

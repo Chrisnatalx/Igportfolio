@@ -1,5 +1,7 @@
 import React from 'react';
 import './Navbar.css';
+import localFont from 'next/font/local';
+
 export const Navbar = () => {
 	return (
 		<div className="NavbarContent">
@@ -9,7 +11,7 @@ export const Navbar = () => {
 					alt="logito"
 					className="logoIg"
 				/>
-				<h1>Instagram.exe</h1>
+				<h1>NataleCv.exe</h1>
 			</div>
 			<div className="NavbarButtonsContent">
 				<button>

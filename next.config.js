@@ -7,3 +7,9 @@ module.exports = {
 		domains: ['avatars.githubusercontent.com'],
 	},
 };
+
+module.exports = {
+	images: {
+		domains: ['res.cloudinary.com'],
+	},
+};

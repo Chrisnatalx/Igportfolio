@@ -8,5 +8,43 @@
 .userData{
     display: flex;
     flex-direction: row;
+    align-items: center;
     width: 100%;
+}
+.posteos{
+    margin-top: 10%;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+.cvButton{
+    background: #afafaf;
+    width: 80%;
+    height: 70px;
+    border-top: 3px solid white;
+    border-left: 3px solid white;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+.emailButton{
+    background: #afafaf;
+    height: 70px;
+    border-top: 3px solid white;
+    border-left: 3px solid white;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+.informationDataUser{
+    margin-top: 4%;
+    width: 100%;
+    border-bottom: 2px solid #000;
+}
+.informationDataUser h1{
+margin-left: 10px;
+}
+.informationDataUser h2{
+margin-left: 10px;
+}
+.informationDataUser h3{
+margin-left: 10px;
 }

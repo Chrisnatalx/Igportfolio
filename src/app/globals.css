@@ -1,3 +1,19 @@
-body{
+body {
+  background-image: url('https://cdn.wallpapersafari.com/13/96/B8Cqdk.jpg');
+}
+.WindowsContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Container{
+  margin-top: 2%;
+  width: 80%;
+  height: 70%;
+  background: #afafaf;
+}
+.ContainerHome{
+  width: 80%;
+  height: 70%;
   background: #afafaf;
 }

@@ -1,0 +1,15 @@
+.AboutmeContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.Texto{
+ width: 50%;
+}
+.Iconos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 40%;
+    gap: 30px;
+}

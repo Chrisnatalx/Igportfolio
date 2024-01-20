@@ -1,5 +1,14 @@
 .InformationContainer{
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    align-items: center;
+    justify-content: center;
+}
+.InfoContent{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .avatarimage{
     border-radius: 50%;
@@ -12,7 +21,6 @@
     width: 100%;
 }
 .posteos{
-    margin-top: 10%;
     width: 100%;
     display: flex;
     gap: 10px;
@@ -21,18 +29,50 @@
     background: #afafaf;
     width: 80%;
     height: 70px;
+    text-align: center;
+    text-decoration: none;
     border-top: 3px solid white;
     border-left: 3px solid white;
     border-right: 3px solid black;
     border-bottom: 3px solid black;
 }
+.cvButton a{
+    text-decoration: none;
+    color: #000;
+}
+.cvButton a:visited{
+    text-decoration: none;
+    color: #000;
+}
+.cvButton h1{
+    text-decoration: none;
+    color: #000;
+}
+
+
+
 .emailButton{
     background: #afafaf;
     height: 70px;
+    padding-left: 4px;
+    padding-right: 4px;
+    text-decoration: none;
     border-top: 3px solid white;
     border-left: 3px solid white;
     border-right: 3px solid black;
     border-bottom: 3px solid black;
+}
+.emailButton a{
+    text-decoration: none;
+    color: #000;
+}
+.emailButton a:visited{
+    text-decoration: none;
+    color: #000;
+}
+.emailButton h1{
+    text-decoration: none;
+    color: #000;
 }
 .informationDataUser{
     margin-top: 4%;
@@ -47,4 +87,25 @@ margin-left: 10px;
 }
 .informationDataUser h3{
 margin-left: 10px;
+}
+.Iconos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+    gap: 30px;
+    
+}
+.Iconos a{
+    color: #000;
+    filter: blur(1px);
+}
+.Iconos a:visited{
+    color: #000;
+    background-color: #000;
+
+}
+.iconosText{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 89%;
 }

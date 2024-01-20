@@ -3,13 +3,11 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    border-bottom: solid 2px #000;
 }
 .Texto{
  width: 50%;
 }
-.Iconos{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    width: 40%;
-    gap: 30px;
+.Texto h1{
+margin-left: 20px;
 }

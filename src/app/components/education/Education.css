@@ -1,0 +1,11 @@
+.EducationContainer img{
+    width: 300px;
+    height: 200px;
+}
+.EducationContainer{
+    border-top: 2px solid #fff;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}

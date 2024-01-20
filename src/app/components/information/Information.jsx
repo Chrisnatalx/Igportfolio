@@ -1,6 +1,9 @@
 import React from 'react';
 import './Information.css';
 import Image from 'next/image';
+import { MdEmail } from 'react-icons/md';
+import Link from 'next/link';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 export const Information = () => {
 	return (
 		<>
@@ -13,17 +16,43 @@ export const Information = () => {
 						width={300}
 						className="avatarimage"
 					/>
+				</div>
+				<div className="InfoContent">
+					<div className="Iconos">
+						<Link href="https://www.linkedin.com/in/christian-natale-/">
+							<FaLinkedin style={{ height: '40px', width: '40px' }} />
+						</Link>
+
+						<Link href="https://github.com/Chrisnatalx">
+							<FaGithub style={{ height: '40px', width: '40px' }} />
+						</Link>
+						<Link href="mailTo:natale.christian.a@gmail.com">
+							<MdEmail style={{ height: '40px', width: '40px' }} />
+						</Link>
+					</div>
+					<div className="iconosText">
+						<h1>Linkedin</h1>
+						<h1>Github</h1>
+						<h1>Mail</h1>
+					</div>
 					<div className="posteos">
-						<button className="cvButton">
+						<Link
+							href="https://christiannatalecv.tiiny.site"
+							download
+							className="cvButton"
+						>
 							<h1>
-								<strong>Download Cv</strong>
+								<strong>Download CV</strong>
 							</h1>
-						</button>
-						<button className="emailButton">
+						</Link>
+						<Link
+							href="mailTo:natale.christian.a@gmail.com"
+							className="emailButton"
+						>
 							<h1>
-								<strong>Email</strong>
+								<MdEmail style={{ height: '40px', width: '40px' }} />
 							</h1>
-						</button>
+						</Link>
 					</div>
 				</div>
 			</div>

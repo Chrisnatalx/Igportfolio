@@ -11,7 +11,7 @@ export const Navbar = () => {
 					alt="logito"
 					className="logoIg"
 				/>
-				<h1>NataleCv.exe</h1>
+				<h1>Natale-cv.exe</h1>
 			</div>
 			<div className="NavbarButtonsContent">
 				<button>
